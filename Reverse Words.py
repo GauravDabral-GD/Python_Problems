@@ -1,6 +1,6 @@
 # Reverse Words :- This program takes a list as an argument and returns the list in a reversed order.
 
-a = 'My name is gaurav'
+a = input('Enter your message here : ')
 
 def revSentence(s):
     return ' '.join(reversed(s.split(' ')))
