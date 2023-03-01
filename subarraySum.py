@@ -1,13 +1,10 @@
-# This program takes a sequence of numbers as input as well as an integer 'sum' and returns the 
-# subsequence if the their sum is equal to the given 'sum'.
+# The following program takes a sequence of numbers as well as a sum as the input and returns 
+# a slice of the sequence such that the values of the slice is equal to the sum provided as input.
+# And if no such sequence is present, it returns -1.
 
 
-a = input('List : ').split(' ')
-
-for i in range(len(a)):
-    a[i] = int(a[i])
-
-sum = int(input("sum : "))
+a = list(map(lambda x: int(x), input("Enter a sequence of integers: ").strip().split(' ')))
+sum = int(input("Sum : "))
 
 
 def subsum(a,sum):
