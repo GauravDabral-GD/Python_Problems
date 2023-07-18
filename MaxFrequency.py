@@ -17,10 +17,8 @@ def maxfreq(a):
         if d[key] == maxVal:
             maxKey = key
     
-    return (f'{maxKey} has maximum frequency, it appears {maxVal} times in the sequence.')
+    return (f'{maxKey} has the maximum frequency, it appears {maxVal} times in the sequence.')
 
 print(maxfreq(a))
 
             
-
-
